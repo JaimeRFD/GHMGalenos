@@ -117,7 +117,7 @@ function agendarCitaC() {
     if (horasSeleccionadas.length === 0) {
         alert('Error: Debes seleccionar al menos una hora.');
     } else {
-        const mensaje = `Agenda realizada con éxito:\nFecha: ${fechaC}\nFecha 3 meses: ${fechaTresMeses}\nHoras: ${horasSeleccionadas.join(', ')}`;
+        const mensaje = `Agenda realizada con éxito:\nDesde: ${fechaC}\nHasta: ${fechaTresMeses}\nHoras: ${horasSeleccionadas.join(', ')}`;
         alert(mensaje);
         window.location.reload();
     }
