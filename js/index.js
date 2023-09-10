@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
-        if (email === "cliente@gmail.com" && password === "cliente") {
+        if (email === "paciente@gmail.com" && password === "paciente") {
             window.location.href = "toma_horas.html";
         } else if (email === "doctor@galenos.cl" && password === "doctor") {
             window.location.href = "espera.html";
